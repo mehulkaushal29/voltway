@@ -9,7 +9,7 @@ import {
   signInWithEmailAndPassword,
   signOut as firebaseSignOut,
   updateProfile,
-} from 'firebase/auth';
+} from '@firebase/auth';
 import { auth } from '../config/firebase';
 
 export type VoltUser = {
